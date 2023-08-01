@@ -23,7 +23,7 @@ const videoRef = useRef(null);
             duration: .7,
             y: "-100%"
         }, 1.3)
-      }
+      } 
     }, []);
 
     
@@ -32,7 +32,7 @@ const videoRef = useRef(null);
   return (
     <>
       <div id="ok1" className="bg-[#ffe95c] h-screen w-screen absolute top-0 z-50" >
-        <video ref={videoRef} className="h-full w-full object-cover" canplaythrough  muted loop src="https://res.cloudinary.com/dcl00yipc/video/upload/v1690840597/burgervideo_hhbyg3.mp4"></video>
+        <video ref={videoRef} className="h-full w-full object-cover"  muted src="https://res.cloudinary.com/dcl00yipc/video/upload/v1690840597/burgervideo_hhbyg3.mp4"></video>
       </div>
       <div id="ok" className="bg-pink-500 absolute w-screen h-screen z-40"></div>
     </>
