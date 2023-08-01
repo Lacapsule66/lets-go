@@ -98,7 +98,7 @@ export default function First() {
               F<span className="rock">a</span>st - F
               <span className="rock">oo</span>d
             </span>
-            <br /> Pollestre.{" "}
+            <br /> Pollestres.{" "}
           </h1>
         </div>
         <div id="split" className="text-white w-[80%] text-2xl max-lg:hidden">
